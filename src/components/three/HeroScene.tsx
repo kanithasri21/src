@@ -51,7 +51,7 @@ function FloatingShape({
   )
 }
 
-function CodeSymbol({ position, char }: { position: [number, number, number]; char: string }) {
+function CodeSymbol({ position }: { position: [number, number, number];  }) {
   const ref = useRef<THREE.Group>(null)
 
   useFrame((state) => {
