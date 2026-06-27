@@ -95,8 +95,8 @@ function SceneContent() {
       <FloatingShape position={[3, 1.8, -5]} color="#06B6D4" geometry="octahedron" speed={0.9} />
     </group>
 
-    <CodeSymbol position={[-3, 0, -1]} char="<" />
-    <CodeSymbol position={[3.2, 0.5, -2]} char=">" />
+    <CodeSymbol position={[-3, 0, -1]} />
+    <CodeSymbol position={[3.2, 0.5, -2]} />
   </>
   )
 }
